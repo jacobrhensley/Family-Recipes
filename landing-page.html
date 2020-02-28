@@ -10,11 +10,11 @@
     <h1>Family Recipes</h1>
 </header>
 <div id="intro-submit">
-    <p>This is an online recipe book built to make it easy for the whole family to find and make recipes that we love.
+    <p>This is an online recipe book built to make it easy for the whole family to find, make, and share recipes that we love.
         If
         you have a recipe you want to add, send it in to me and I'll add it in!</p>
     <form method="POST" action="#">
-        <textarea name="recipe-submit" id="recipe-submit" cols="100" rows="10"></textarea>
+        <textarea name="recipe-submit" id="recipe-submit" cols="60" rows="10"></textarea>
         <br>
         <button type="submit">Send it in!</button>
     </form>
@@ -23,25 +23,31 @@
 <br>
 
 <div id="categories">
-<h1>
-    Categories
-</h1>
-    <ul>
-        <li class="sub-cat"><a href="#"><strong>Breakfast</strong></a></li>
-        <ul>
-            <li><a href="#">Feel-good Food</a></li>
-            <li><a href="#">Lighter Options</a></li>
-        </ul>
-        <li class="sub-cat"><a href="#"><strong>--Lunch--</strong></a></li>
-        <ul>
-            <li><a href="#">Feel-good Food</a></li>
-            <li><a href="#">Lighter Options</a></li>
-        </ul>
-        <li class="sub-cat"><a href="#"><strong>-Dinner--</strong></a></li>
-        <ul>
-            <li><a href="#">Feel-good Food</a></li>
-            <li><a href="#">Lighter Options</a></li>
-        </ul>
+    <h1>
+        Categories
+    </h1>
+    <ul id="center-opt">
+        <div id="breakfast">
+            <li class="sub-cat"><a href="#"><strong>Breakfast</strong></a></li>
+            <ul>
+                <li><a href="#">Feel-good Food</a></li>
+                <li><a href="#">Lighter Options</a></li>
+            </ul>
+        </div>
+        <div id="lunch">
+            <li class="sub-cat"><a href="#"><strong>Lunch</strong></a></li>
+            <ul>
+                <li><a href="#">Feel-good Food</a></li>
+                <li><a href="#">Lighter Options</a></li>
+            </ul>
+        </div>
+        <div id="dinner">
+            <li class="sub-cat"><a href="#"><strong>Dinner</strong></a></li>
+            <ul>
+                <li><a href="#">Feel-good Food</a></li>
+                <li><a href="#">Lighter Options</a></li>
+            </ul>
+        </div>
     </ul>
 </div>
 </body>

@@ -1,12 +1,20 @@
+html {
+    font-family: "PT Sans Caption"
+}
 header {
-    background-color: #ACBDBA;
     color: black;
+    text-decoration: underline;
     text-align: center;
     padding: 15px;
     font-size: 30px;
 }
 #intro-submit {
     text-align: center;
+    background-color: darkgrey;
+    padding: 20px;
+}
+#intro-submit p {
+    font-size: large;
 }
 #categories {
     text-align: center;
@@ -21,5 +29,28 @@ header {
     font-size: xx-large;
 }
 body {
-    background-color: #CDDDDD;
+    background-image: url("../img/embossed-diamond.png");
+}
+a:visited {
+    color:grey;
+}
+a:link {
+    color:black;
+}
+a:hover {
+    color:blue;
+}
+a:active {
+    color:green;
+}
+ul, ol {
+    list-style: none;
+}
+#breakfast, #lunch, #dinner {
+    text-align: center;
+}
+textarea, button {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
