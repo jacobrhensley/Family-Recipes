@@ -8,10 +8,47 @@
 </head>
 <body>
 <header>
-    <h1>Family Recipes</h1>
+    <h1 id="title">Family Recipes</h1>
 </header>
+<div id="categories">
+    <h1>
+        Categories
+    </h1>
+    <div class="breakfast-menu">
+        <input type="checkbox" id="breakfast">
+        <label for="breakfast">Breakfast</label>
+        <div class="menu-content">
+            <ul>
+                <li><a href="breakfast-comfort.html">Comfort Food</a></li>
+                <li><a href="breakfast-lighter.html">Lighter Options</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="lunch-menu">
+        <input type="checkbox" id="lunch">
+        <label for="lunch">Lunch</label>
+        <div class="menu-content">
+            <ul>
+                <li><a href="lunch-comfort.html">Comfort Food</a></li>
+                <li><a href="lunch-lighter.html">Lighter Options</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="dinner-menu">
+        <input type="checkbox" id="dinner">
+        <label for="dinner">Dinner</label>
+        <div class="menu-content">
+            <ul>
+                <li><a href="dinner-comfort.html">Comfort Food</a></li>
+                <li><a href="dinner-lighter.html">Lighter Options</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<br><br>
 <div id="intro-submit">
-    <p>This is an online recipe book built to make it easy for the whole family to find, make, and share recipes that we love.
+    <p>This is an online recipe book built to make it easy for the whole family to find, make, and share recipes that we
+        love.
         If
         you have a recipe you want to add, send it in to me and I'll add it in!</p>
     <form method="POST" action="#">
@@ -23,33 +60,5 @@
 <br>
 <br>
 
-<div id="categories">
-    <h1>
-        Categories
-    </h1>
-    <ul id="center-opt">
-        <div id="breakfast">
-            <li class="sub-cat"><a href="#"><strong>Breakfast</strong></a></li>
-            <ul>
-                <li><a href="#">Feel-good Food</a></li>
-                <li><a href="#">Lighter Options</a></li>
-            </ul>
-        </div>
-        <div id="lunch">
-            <li class="sub-cat"><a href="#"><strong>Lunch</strong></a></li>
-            <ul>
-                <li><a href="#">Feel-good Food</a></li>
-                <li><a href="#">Lighter Options</a></li>
-            </ul>
-        </div>
-        <div id="dinner">
-            <li class="sub-cat"><a href="#"><strong>Dinner</strong></a></li>
-            <ul>
-                <li><a href="#">Feel-good Food</a></li>
-                <li><a href="#">Lighter Options</a></li>
-            </ul>
-        </div>
-    </ul>
-</div>
 </body>
 </html>
